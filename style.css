@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width: 960px) {
+  .white_card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .white_card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .white_card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  .white_card {
+    width: 150px;
+  }
+  #profil-pic{
+    height:120px;
+  }
+}
+
+body{
+  background-color: rgb(223, 211, 195);
+  font-family : "Nunito Sans", sans-serif;
+  text-align: center;
+}
+
+h1, h3{
+  color: rgb(141, 73, 58);
+}
+
+#profil-pic{
+  max-height:200px;
+  border-radius: 50%;
+  border: 10px solid whitesmoke;
+}
+
+a, ul{
+  text-decoration: none;
+  color:rgb(141, 73, 58);
+  margin: 0;
+  padding: 0;
+}
+
+i{
+  font-size: 20px;
+}
+a:hover{
+  color: rgb(197, 112, 93);
+  transition: .5;
+}
+
+li{
+  display:inline;
+  padding: 0 10px;
+}
+
+.white_card{
+  background-color: rgb(255, 255, 255, .7);
+  margin: 70px;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 2px 1px 7px black;
+}
